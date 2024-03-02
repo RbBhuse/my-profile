@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <style>
+       header{
+        background-color: #204060;
+  }
+.text{
+  color: white;
+}
        table,th,td,tr{
             border: 2px solid black;
             border-collapse: collapse;
         }
-
+ svg{
+  color:#ffff33;
+ }
 #resume{
 
   color: orange;
@@ -20,13 +28,22 @@
 
 .heading{
 
-  color: cadetblue;
+  color: #e2f0fc;
 
   font-style: italic;
+  background-color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif  ;
 
 }
 
-
+#angular{
+  color:red;
+  font-weight: bold;
+}
+#gitHub{
+  color: blue;
+  background-color: #ff99ff;
+}
     </style>
 </head>
 <body>
@@ -36,15 +53,15 @@
 <p>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
         <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
-      </svg>&nbsp; Reshma Bhuse &nbsp;&nbsp;&nbsp;
+      </svg>&nbsp; <span class="text">Reshma Bhuse</span> &nbsp;&nbsp;&nbsp;
       
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-      </svg> &nbsp; 7028 4537 18 &nbsp;&nbsp;&nbsp;
+      </svg> &nbsp; <span class="text">7028 4537 18</span> &nbsp;&nbsp;&nbsp;
       
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
         <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-      </svg>&nbsp; reshmabhuse7@gmail.com &nbsp;&nbsp;&nbsp;
+      </svg>&nbsp; <span class="text">reshmabhuse7@gmail.com </span>&nbsp;&nbsp;&nbsp;
       
       <a href="assets/resume.pdf" download id="resume"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-arrow-down-fill" viewBox="0 0 16 16">
         <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M8 5a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.293V5.5A.5.5 0 0 1 8 5"/>
@@ -73,7 +90,15 @@
 
     <!-- Main Section -->
 
-    <section>
+    <section id="career">
+
+<!-- Career objective  Section -->
+<section>
+<h2 class="heading">Career objective</h2>
+<p>
+  TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILL AND HELP ORGANIZATION GROWTH
+</p>
+</section>
 <!-- HOME Section -->
 
 <section id="home">
@@ -82,9 +107,9 @@
 
     <ul>
 
-      <li style="color:cadetblue">Having 2 years of experience in developing Single page Web Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
+      <li style="color:cadetblue">Having 2 years of experience in developing Single page Web Applications using  <span id ="angular">Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
 
-      <li>Experience on working with version control system - GIT and GitHub</li>
+      <li id="gitHub">Experience on working with version control system - GIT and GitHub</li>
 
       <li>Experience working with JIRA for user stories and bug tracking</li>
 
