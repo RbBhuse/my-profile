@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS BOX Sizing</title>
+
+    <style>
+      p {
+        border: 5px solid cadetblue;
+      }
+
+      #summary {
+        font-size: larger;
+
+        /* padding-left: 30px; */
+
+        /* margin: 30px; */
+
+        /* margin: 20px 50px; */
+
+        padding: 30px;
+
+        width: 200px;
+
+        box-sizing: content-box;
+      }
+
+      #project {
+        font-size: larger;
+
+        /* padding-top: 40px;
+
+padding-right: 40px;
+
+padding-bottom: 40px;
+
+padding-left: 40px; */
+
+        /* padding:40px 10px;    */
+
+        padding: 30px;
+
+        width: 200px;
+
+        box-sizing: border-box;
+      }
+      #one {
+        font-size: 30px;
+      }
+
+      #two {
+        font-size: 30px;
+      }
+
+      #para1 {
+        font-size: 2em;
+      }
+
+      #para2 {
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <p>CSS Box Sizing property</p>
+    <p id="summary">Project Section</p>
+
+    <p id="project">Project Section</p>
+
+    <div id="one">
+      <p id="para1">Paragraph one</p>
+    </div>
+
+    <div id="two">
+      <p id="para2">Paragraph Two</p>
+    </div>
+  </body>
+</html>
