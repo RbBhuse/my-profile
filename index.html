@@ -7,6 +7,10 @@
     <!-- CDN Link -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Font Family link-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <style>
  
 header{
@@ -30,6 +34,7 @@ font-weight: bolder;
 color: cadetblue;
 
 font-style: italic;
+font-family: "Roboto", sans-serif;
 
 }
 
@@ -38,6 +43,7 @@ font-style: italic;
 margin-right: 40px;
 
 margin-left: 10px;
+font-family: "Roboto", sans-serif;
 
 }
 
@@ -46,13 +52,16 @@ margin-left: 10px;
 margin-left: 10px;
 
 }
-
+.allContent{
+  font-family: "Poppins", sans-serif;
+}
 nav{
   margin-top: 20px;
 }
 .nav-info{
   margin-right: 20px;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
 li{
   padding: 10px;
@@ -65,15 +74,24 @@ li{
   color: blue;
   background-color: #ff99ff;
 }
-th,td,tr{
-  border:1px solid black;
+table,th,td,tr{
+  border: 2px solid rgb(216, 186, 131);
   border-collapse: collapse;
+  
+}
+td,th{
   padding: 10px;
 }
-
+.techTable{
+  width: 50%;
+}
 .footer-icon{
   margin-right: 30px;;
 }
+th{
+  font-family: "Roboto", sans-serif;
+}
+
     </style>
 </head>
 <body>
@@ -129,7 +147,7 @@ th,td,tr{
 <!-- Career objective  Section -->
 <section>
 <h2 class="heading">Career objective</h2>
-<p>
+<p class="allContent">
   TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILL AND HELP ORGANIZATION GROWTH
 </p>
 </section>
@@ -139,7 +157,7 @@ th,td,tr{
 
     <h2 class="heading">Professional Summary</h2>
 
-    <ul>
+    <ul class="allContent">
 
       <li style="color:cadetblue">Having 2 years of experience in developing Single page Web Applications using  <span id ="angular">Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
 
@@ -167,13 +185,13 @@ th,td,tr{
 
     <h2 class="heading">My Technology stack is</h2>
 
-    <table  class="table-info">
+    <table  class="table-info techTable">
         <thead>
             <tr>
                 <th><strong>Sr.No</strong></th>
             <th><strong>Technology Stack</strong></th>
             <th><strong>Rating</strong></th></tr>
-            <tbody>
+            <tbody class="allContent">
                 <tr>
                     <td>1</td>
                     <td>Html</td>
@@ -209,8 +227,8 @@ th,td,tr{
   <section id="project">
 
     <h2 class="heading">Projects</h2>
-
-    <strong>Name: </strong>&nbsp Student Management <br>
+<div class="allContent">
+    <strong>Name: </strong>Student Management <br>
     <br>
     <strong>Environment:</strong> Angular 8. TypeScript, JavaScript (ES6), HTML5, CSS, Bootstrap, GitHub, Desktop GitHub, Agile and JIRA, IDE - VS Code<br>
     <br>
@@ -221,9 +239,9 @@ th,td,tr{
     <hr>
     <strong>Roles and Responsibilities:</strong><br>
      <br>
+    </div>
     
-    
-  <ul  class="role-info">
+  <ul  class="allContent">
       <li>Designed and implemented the user interface using HTML, 5 and CSS</li>
       <li>Work closely with backend developers for code integration</li>
       <li>Identifying and troubleshooting issues with front end code</li>
@@ -258,7 +276,7 @@ th,td,tr{
         <th>Board/University</th>
         <th>Year</th>
         <th>Percentage</th></tr></thead>
-        <tbody>
+        <tbody class="allContent">
           <tr>
               <td>BE</td>
               <td>CSMIT,Shedung,Panvel</td>
@@ -304,7 +322,7 @@ th,td,tr{
         <br>
         <br>
         
-        <section id="contactMe">
+        <section id="contactMe" class="allContent">
 
             <!-- Copy write section -->
       
