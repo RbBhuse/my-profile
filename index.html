@@ -52,8 +52,15 @@ font-family: "Roboto", sans-serif;
 margin-left: 10px;
 
 }
-.allContent{
+.listSummary{
   font-family: "Poppins", sans-serif;
+}
+.listSummary li{
+list-style-type: none;
+margin-left: 10px;
+}
+.listSummary li::marker{
+content:"✍️";
 }
 nav{
   margin-top: 20px;
@@ -91,8 +98,19 @@ td,th{
 th{
   font-family: "Roboto", sans-serif;
 }
+.roles li{
+  font-family: "Poppins", sans-serif;
+  list-style-type: lower-alpha;
+}
+#projectDesc::selection{
 
-    </style>
+background-color: rgb(241, 193, 104);
+
+}
+  #duration{
+    margin-left: 50px;
+  }
+  </style>
 </head>
 <body>
     <!-- Header section -->
@@ -157,7 +175,7 @@ th{
 
     <h2 class="heading">Professional Summary</h2>
 
-    <ul class="allContent">
+    <ul class="listSummary">
 
       <li style="color:cadetblue">Having 2 years of experience in developing Single page Web Applications using  <span id ="angular">Angular 8</span>, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript</li>
 
@@ -227,21 +245,23 @@ th{
   <section id="project">
 
     <h2 class="heading">Projects</h2>
-<div class="allContent">
-    <strong>Name: </strong>Student Management <br>
-    <br>
-    <strong>Environment:</strong> Angular 8. TypeScript, JavaScript (ES6), HTML5, CSS, Bootstrap, GitHub, Desktop GitHub, Agile and JIRA, IDE - VS Code<br>
-    <br>
-    <strong>Team Size:</strong>&nbsp 06 &nbsp &nbsp &nbsp &nbsp &nbsp<strong>Duration:</strong> 2021-1-Juy till present <br>
-    <br>
-    <strong>Project Description:</strong>&nbsp This project is mainly used for student management in colleges, where It help to manage student record like student registration, student update information and to see all his or her academic activities like score card, attendance.<br>
-    <br>
+<div class="listSummary">
+    <p><b>Name:</b>Student Management </p>
+  
+    <p><b>Environment:</b> Angular 8. TypeScript, JavaScript (ES6), HTML5, CSS, Bootstrap, GitHub, Desktop GitHub, Agile and JIRA, IDE - VS Code<br>
+      </p>
+
+      <p><b>Team Size:</b>06 <b id="duration">Duration:</b>2021-1-Juy till present</p>
+    
+    <p id="projectDesc"><b>Project Description:</b>This project is mainly used for student management in colleges, where It help to manage student record like student registration, student update information and to see all his or her academic activities like score card, attendance.<br>
+      </p>
+    
     <hr>
     <strong>Roles and Responsibilities:</strong><br>
      <br>
     </div>
     
-  <ul  class="allContent">
+  <ol  class="roles">
       <li>Designed and implemented the user interface using HTML, 5 and CSS</li>
       <li>Work closely with backend developers for code integration</li>
       <li>Identifying and troubleshooting issues with front end code</li>
@@ -249,7 +269,7 @@ th{
       <li>Used JIRA for bug tracking</li>
       <li>Implemented project using Agile SCRUM methodology, Involved in daily stand up meetings, sprint showcase and sprint retrospective</li>
      <li>Involved in fixing technical issues</li>
-    </ul>
+    </ol>
     
 
   </p>
