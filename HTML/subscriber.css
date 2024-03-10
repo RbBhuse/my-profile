@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.main {
+  height: 650px;
+  width: 405px;
+  border: 1px solid blue;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: -2px 0px 5px 7px #94b8b8;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  padding-left: 10px;
+}
+#text {
+  margin-left: 12px;
+  background-color: #00a3cc;
+  border-radius: 10px;
+  color: white;
+
+  padding: 15px;
+  line-height: 25px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+.labelText {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.emailInput {
+  padding: 15px 108px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #ccfff2;
+}
+
+.unsubscribeInput {
+  font-family: "Roboto", sans-serif;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #ccfff2;
+  text-align: left;
+  height: 80px;
+  width: 370px;
+  text-align: left;
+}
+.button {
+  margin-top: 30px;
+  margin-left: 260px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+}
