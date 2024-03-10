@@ -30,10 +30,10 @@ console.log('=======step no4 ========');
 console.log('Before update value :')
 var totalCount= "Hundred and Seven";
 var typeOFCount= typeof totalCount;
-console.log('Value of Total Count:',totalCount,',','Type of Count:', typeOFCount);
+console.log('Value of Total Count:',totalCount,',','Type of total Count:', typeOFCount);
 
 var totalCount=107;
 console.log('After update value :');
 var typeOFCount= typeof totalCount;
-console.log('Value of Total Count:',totalCount,',','Type of Count:', typeOFCount);
+console.log('Value of Total Count:',totalCount,',','Type of total Count:', typeOFCount);
 
