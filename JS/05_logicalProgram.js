@@ -19,6 +19,7 @@ var multiple = function(num){
     var result = num%3==0 ? "Yes" : "No";
     console.log(`Given number ${num} is multiple of 3 ==> ${result}`);
 
+}
 
 multiple(9);
 multiple(11);
