@@ -33,5 +33,5 @@ function oddPositionedChars(str) {
 
 console.log(`charter at Odd positioned in first string1`);
 oddPositionedChars("Hard work always plays back");
-console.log(`charter at Odd positioned in first string2`);
+console.log(`charter at Odd positioned in second string2`);
 oddPositionedChars("Soon I will be UI IT Champ");
