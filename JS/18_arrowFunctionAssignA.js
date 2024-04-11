@@ -23,6 +23,6 @@ console.log(`==============Step no:3===============`);
 
 let result = addition(100,100,200,349,756)
 console.log(`Addition is : ${result}`);
-let result1 = addition("I am", "learning", "ES6","features","in depth");
+let result1 = addition("I am ", "learning ", "ES6 ","features ","in depth");
 console.log(`Addition is : ${result1}`);
 console.log(`================`);
